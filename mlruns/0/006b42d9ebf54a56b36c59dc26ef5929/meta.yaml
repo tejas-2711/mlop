@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/I566486/Downloads/MLOpsAssignment/mlruns/0/006b42d9ebf54a56b36c59dc26ef5929/artifacts
+end_time: 1722948614999
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 006b42d9ebf54a56b36c59dc26ef5929
+run_name: secretive-fox-297
+run_uuid: 006b42d9ebf54a56b36c59dc26ef5929
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722948602746
+status: 3
+tags: []
+user_id: I566486

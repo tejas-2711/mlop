@@ -8,7 +8,7 @@ import mlflow
 import mlflow.sklearn
 
 # Load data from csv file
-data = pd.read_csv("data/processed/titanicp.csv.dvc")
+data = pd.read_csv("data/processed/titanicp.csv")
 X = data.drop(columns=["Survived"])
 y = data["Survived"]
 
