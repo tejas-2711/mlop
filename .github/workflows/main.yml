@@ -107,20 +107,14 @@ jobs:
         run: echo "${DOCKER_PASSWORD}" | docker login -u "${DOCKER_USERNAME}" --password-stdin
 
       - name: Build Docker image
-        run: docker build -t mlops59 .
+        run: docker build -t mlops137 .
 
       - name: Tag Docker image
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-        run: docker tag mlops59:latest ${DOCKER_USERNAME}/mlops59:latest
+        run: docker tag mlops137:latest ${DOCKER_USERNAME}/mlops137:latest
 
       - name: Push Docker image
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-        run: docker push ${DOCKER_USERNAME}/mlops59:latest
-
-      
-        
-        
-        
-        
+        run: docker push ${DOCKER_USERNAME}/mlops137:latest
